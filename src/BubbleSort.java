@@ -1,6 +1,6 @@
 public class BubbleSort {
 		// TODO Auto-generated method stub 
-		    static void BubbleSort(int[] arr) {  
+		    static void bubbleSort(int[] arr) {  
 		        int n = arr.length;  
 		        int temp = 0;  
 		         for(int i=0; i < n; i++){  
@@ -23,7 +23,7 @@ public class BubbleSort {
 		                }  
 		                System.out.println();  
 		                  
-		                BubbleSort(arr); 
+		                bubbleSort(arr); 
 		                 
 		                System.out.println("Array After Bubble Sort");  
 		                for(int i=0; i < arr.length; i++){  
